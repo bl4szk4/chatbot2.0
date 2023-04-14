@@ -1,0 +1,8 @@
+voice_params:
+  voice: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Speech\Voices\Tokens\TTS_MS_PL-PL_PAULINA_11.0
+  rate: 100
+gpt_params:
+  gpt_token: ''
+  temperature: 0.5
+  engine: ada #text-davinci-003
+  max_tokens: 1000
