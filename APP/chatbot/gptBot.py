@@ -23,8 +23,9 @@ class GptBot:
             )
             GptResponse.error = False
             GptResponse.response = response['choices'][0]['text']
+            GptResponse.tokens = response['usage']['total_tokens']
 
-       except Exception:
-           GptResponse.error = True
+        except Exception:
+            GptResponse.error = True
 
         return GptResponse

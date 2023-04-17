@@ -12,3 +12,4 @@ class GptResponse(BaseModel):
     error: bool
     errorName: str
     response: str
+    tokens: int
